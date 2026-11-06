@@ -17,6 +17,7 @@ tauri-plugin-notification = "2"
 tauri-plugin-process = "2"
 # открыть ссылку в браузере (на Android — скачать новую версию APK)
 tauri-plugin-opener = "2"
+serde_json = "1.0.154"
 
 # только для компьютера: трей, автозапуск, одно окно, автообновление
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
